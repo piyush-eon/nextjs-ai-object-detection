@@ -1,0 +1,27 @@
+{
+  "name": "object-detection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.17.0",
+    "lodash": "^4.17.21",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
